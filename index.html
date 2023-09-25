@@ -93,6 +93,113 @@
     </blockquote>
   </div>
 
+  <div id="booking">
+    <h2>Забронировать</h2>
+
+    <form method="POST" action="https://jsonplaceholder.typicode.com/posts">
+      <fieldset>
+        <input type="radio" name="room" value="room_80">
+        <label>80's vibes</label>
+
+        <input type="radio" name="room" value="star_wars">
+        <label>star wars</label>
+
+        <input type="radio" name="room" value="wild_west">
+        <label>wild west</label>
+
+        <input type="radio" name="room" value="neon_style">
+        <label>neon style</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Собери набор развлечений</legend>
+
+        <fieldset>
+          <legend>Приставка</legend>
+
+          <input type="radio" name="platform" value="playstation">
+          <label>Playstation</label>
+
+          <input type="radio" name="platform" value="sega">
+          <label>Sega Mega Drive</label>
+
+          <input type="radio" name="platform" value="xbox">
+          <label>X-box One S</label>
+
+          <input type="radio" name="platform" value="dendy">
+          <label>Dendy</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Настольные игры</legend>
+
+          <input type="checkbox" name="board_games" value="jenga">
+          <label>Jenga</label>
+
+          <input type="checkbox" name="board_games" value="monopoly">
+          <label>Monopoly</label>
+
+          <input type="checkbox" name="board_games" value="manchkin">
+          <label>Манчкин</label>
+
+          <input type="checkbox" name="board_games" value="alias">
+          <label>Alias</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Дополнительно</legend>
+
+          <input type="checkbox" name="extra_service" value="karaoke">
+          <label>Караоке</label>
+
+          <input type="checkbox" name="extra_service" value="VR">
+          <label>VR</label>
+        </fieldset>
+      </fieldset>
+
+      <fieldset>
+        <legend>Выбери дату и время</legend>
+
+        <div>
+          <label>Дата*</label>
+          <input type="date" name="date" required>
+
+          <label>Время*</label>
+          <input type="time" name="time" required>
+        </div>
+
+        <div>
+          <label>Количество человек*</label>
+          <input type="text" name="book_qty" pattern="\d{1-2}" required>
+        </div>
+
+        <div>
+          <label>Имя*</label>
+          <input type="text" name="name" required>
+        </div>
+
+        <div>
+          <label>Фамилия*</label>
+          <input type="text" name="surname" required>
+        </div>
+
+        <div>
+          <label>Номер телефона*</label>
+          <input type="tel" name="phone">
+        </div>
+
+        <div>
+          <input type="checkbox" name="over_18">
+          <label>Я старше 18 лет</label>
+        </div>
+      </fieldset>
+
+      <button>Забронировать</button>
+      <input type="checkbox">
+      <label>Согласен на обработку данных</label>
+    </form>
+  </div>
+
   <div id="contacts">
     <h2>Контакты</h2>
 
