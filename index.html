@@ -115,7 +115,7 @@
         <legend>Собери набор развлечений</legend>
 
         <fieldset>
-          <legend>Приставка</legend>
+          <legend>Приставка:</legend>
 
           <input type="radio" name="platform" value="playstation">
           <label>Playstation</label>
@@ -131,7 +131,7 @@
         </fieldset>
 
         <fieldset>
-          <legend>Настольные игры</legend>
+          <legend>Настольные игры:</legend>
 
           <input type="checkbox" name="board_games" value="jenga">
           <label>Jenga</label>
@@ -147,7 +147,7 @@
         </fieldset>
 
         <fieldset>
-          <legend>Дополнительно</legend>
+          <legend>Дополнительно:</legend>
 
           <input type="checkbox" name="extra_service" value="karaoke">
           <label>Караоке</label>
@@ -160,42 +160,35 @@
       <fieldset>
         <legend>Выбери дату и время</legend>
 
-        <div>
-          <label>Дата*</label>
-          <input type="date" name="date" required>
+        <label>Дата<sup>*</sup></label>
+        <input type="date" name="date" required>
 
-          <label>Время*</label>
-          <input type="time" name="time" required>
-        </div>
+        <label>Время<sup>*</sup></label>
+        <input type="time" name="time" required>
 
-        <div>
-          <label>Количество человек*</label>
-          <input type="text" name="book_qty" pattern="\d{1-2}" required>
-        </div>
+        <br>
+        <label>Количество человек<sup>*</sup></label>
+        <input type="text" name="book_qty" required>
 
-        <div>
-          <label>Имя*</label>
-          <input type="text" name="name" required>
-        </div>
+        <br>
+        <label>Имя<sup>*</sup></label>
+        <input type="text" name="name" required>
 
-        <div>
-          <label>Фамилия*</label>
-          <input type="text" name="surname" required>
-        </div>
+        <br>
+        <label>Фамилия<sup>*</sup></label>
+        <input type="text" name="surname" required>
 
-        <div>
-          <label>Номер телефона*</label>
-          <input type="tel" name="phone">
-        </div>
-
-        <div>
-          <input type="checkbox" name="over_18">
-          <label>Я старше 18 лет</label>
-        </div>
+        <br>
+        <label>Номер телефона<sup>*</sup></label>
+        <input type="tel" name="phone" required>
+        
+        <br>
+        <input type="checkbox" name="over_18">
+        <label>Я старше 18 лет</label>
       </fieldset>
 
-      <button>Забронировать</button>
-      <input type="checkbox">
+      <button type="submit">Забронировать</button>
+      <input type="checkbox" required>
       <label>Согласен на обработку данных</label>
     </form>
   </div>
