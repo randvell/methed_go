@@ -160,36 +160,36 @@
       <fieldset>
         <legend>Выбери дату и время</legend>
 
-        <label>Дата<sup>*</sup></label>
-        <input type="date" name="date" required>
+        <label for="booking_date">Дата<sup>*</sup></label>
+        <input type="date" id="booking_date" name="date" required>
 
-        <label>Время<sup>*</sup></label>
-        <input type="time" name="time" required>
-
-        <br>
-        <label>Количество человек<sup>*</sup></label>
-        <input type="text" name="book_qty" required>
+        <label for="booking_time">Время<sup>*</sup></label>
+        <input type="time" id="booking_time" name="time" required>
 
         <br>
-        <label>Имя<sup>*</sup></label>
-        <input type="text" name="name" required>
+        <label for="book_qty">Количество человек<sup>*</sup></label>
+        <input type="text" id="booking_qty" name="book_qty" required>
 
         <br>
-        <label>Фамилия<sup>*</sup></label>
-        <input type="text" name="surname" required>
+        <label for="booking_name">Имя<sup>*</sup></label>
+        <input type="text" id="booking_name" name="name" required>
 
         <br>
-        <label>Номер телефона<sup>*</sup></label>
-        <input type="tel" name="phone" required>
+        <label for="booking_surname">Фамилия<sup>*</sup></label>
+        <input type="text" id="booking_surname" name="surname" required>
+
+        <br>
+        <label for="booking_phone">Номер телефона<sup>*</sup></label>
+        <input type="tel" id="booking_phone" name="phone" required>
         
         <br>
-        <input type="checkbox" name="over_18">
-        <label>Я старше 18 лет</label>
+        <input type="checkbox" id="booking_age_confirmation" name="age_confirmation">
+        <label for="booking_age_confirmation">Я старше 18 лет</label>
       </fieldset>
 
       <button type="submit">Забронировать</button>
-      <input type="checkbox" required>
-      <label>Согласен на обработку данных</label>
+      <input type="checkbox" id="personal_data_confirmation" name="personal_data_confirmation" required>
+      <label for="personal_data_confirmation">Согласен на обработку данных</label>
     </form>
   </div>
 
