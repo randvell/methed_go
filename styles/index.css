@@ -1,0 +1,6 @@
+@import "style.css";
+@import "faq.css";
+
+li {
+  list-style: none;
+}

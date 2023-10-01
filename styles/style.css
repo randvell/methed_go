@@ -7,11 +7,11 @@ body {
   color: #FFFFFF;
 }
 
-blockquote>p {
+.quote-big {
   text-transform: uppercase;
 }
 
-div.wrapper {
+.wrapper {
   width: 1200px;
   padding: 30px;
   margin: 0 auto;
