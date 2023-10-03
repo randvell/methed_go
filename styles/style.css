@@ -7,6 +7,10 @@ body {
   color: #FFFFFF;
 }
 
+li {
+  list-style: none;
+}
+
 .quote-big {
   text-transform: uppercase;
 }
