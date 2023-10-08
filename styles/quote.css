@@ -1,0 +1,48 @@
+.quote-big__text {
+  width: 100%;
+  font-style: normal;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 50px;
+  text-transform: uppercase;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.quote-big__text::before {
+  content: "“ ";
+  color: #6C0287;
+  font-weight: 900;
+}
+
+.quote-big__text::after {
+  content: " ”";
+  color: #6C0287;
+  font-weight: 900;
+}
+
+.quote-big__footer {
+  display: flex;
+  justify-content: right;
+  padding-top: 40px;
+}
+
+.quote-big-avatar__block {
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+  background: url('/images/avatar.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top -10px;
+}
+
+.quote-big__cite {
+  display: inline-block;
+  width: 280px;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-left: 30px;
+}

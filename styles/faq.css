@@ -18,8 +18,9 @@
   display: inline-block;
   position: absolute;
   top: 25%;
-  right: 50px;
+  right: 70px;
   width: 46px;
+  height: 46px;
 }
 
 .faq__element:nth-child(even):after {

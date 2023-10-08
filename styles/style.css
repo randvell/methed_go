@@ -3,20 +3,34 @@
 }
 
 body {
-  background-color: #1B1A1B;
-  color: #FFFFFF;
-}
-
-li {
-  list-style: none;
-}
-
-.quote-big {
-  text-transform: uppercase;
+  background-color: #1b1a1b;
+  font-family: Arial;
+  font-size: 20px;
+  font-style: normal;
+  color: #fff;
+  font-weight: 400;
+  line-height: 28px;
+  margin-left: 130px;
+  margin-right: 130px;
 }
 
 .wrapper {
   width: 1200px;
   padding: 30px;
   margin: 0 auto;
+}
+
+h2 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+li {
+  list-style: none;
 }

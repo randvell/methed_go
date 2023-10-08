@@ -1,0 +1,40 @@
+.room__element {
+  height: 710px;
+  margin-top: 60px;
+}
+
+.room__link {
+  height: 710px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-family: Arial;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+  text-transform: uppercase;
+}
+
+.room__name {
+  width: 252px;
+  height: 160px;
+  margin-top: 275px;
+}
+.room-80 {
+  background: url('/images/room_80s.jpg');
+}
+
+.room-starwars {
+  background: url('/images/room_star_wars.jpg');
+}
+
+.room-wildwest {
+  background: url('/images/room_wild_west.jpg');
+}
+
+.room-neonstyle {
+  background: url('/images/room_neon_style.jpg');
+}

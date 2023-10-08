@@ -1,0 +1,4 @@
+.contacts__link, .contacts__link:link, .contacts__link:visited {
+  text-decoration: none;
+  color: white;
+}
