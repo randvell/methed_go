@@ -1,3 +1,7 @@
+.room__list {
+  padding: 0;
+}
+
 .room__element {
   height: 710px;
   margin-top: 60px;

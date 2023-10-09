@@ -1,4 +1,41 @@
-.contacts__link, .contacts__link:link, .contacts__link:visited {
+.contacts__text {
+  display: inline-block;
+  width: 415px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+
+.contacts__link,
+.contacts__link:link,
+.contacts__link:visited {
   text-decoration: none;
   color: white;
+}
+
+.contacts-address {
+  padding-bottom: 38px;
+}
+
+.contacts-address::before {
+  display: inline-block;
+  content: url('/images/icons/contacts-location.svg');
+  padding-right: 30px;
+  width: 35px;
+}
+
+.contacts-phone::before {
+  display: inline-block;
+  content: url('/images/icons/contacts-phone.svg');
+  padding-right: 30px;
+  width: 35px;
+}
+
+.contacts-email::before {
+  display: inline-block;
+  content: url('/images/icons/contacts-mail.svg');
+  padding-right: 30px;
+  width: 35px;
 }
