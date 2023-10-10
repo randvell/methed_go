@@ -1,16 +1,9 @@
-.slogan {
-  font-size: 28px;
-  line-height: 50px;
-  margin-top: 0;
-  margin-left: 100px;
-}
-
-header {
+.header {
   height: 850px;
   position: relative;
 }
 
-header::before {
+.header::before {
   content: "";
   position: absolute;
   top: 0;
@@ -21,4 +14,10 @@ header::before {
   background-repeat: no-repeat;
   background-position: right bottom;
   z-index: 2;
+}
+
+.header-slogan {
+  font-size: 28px;
+  line-height: 50px;
+  padding-left: 100px;
 }

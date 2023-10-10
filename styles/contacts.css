@@ -8,34 +8,23 @@
   margin-bottom: 11px;
 }
 
-.contacts__link,
-.contacts__link:link,
-.contacts__link:visited {
-  text-decoration: none;
-  color: white;
-}
-
 .contacts-address {
   padding-bottom: 38px;
 }
 
-.contacts-address::before {
-  display: inline-block;
-  content: url('/images/icons/contacts-location.svg');
+.contacts__element::before {
   padding-right: 30px;
   width: 35px;
+}
+
+.contacts-address::before {
+  content: url('/images/icons/contacts-location.svg');
 }
 
 .contacts-phone::before {
-  display: inline-block;
   content: url('/images/icons/contacts-phone.svg');
-  padding-right: 30px;
-  width: 35px;
 }
 
 .contacts-email::before {
-  display: inline-block;
   content: url('/images/icons/contacts-mail.svg');
-  padding-right: 30px;
-  width: 35px;
 }

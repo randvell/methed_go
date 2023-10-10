@@ -1,8 +1,6 @@
 .quote-big__text {
   width: 100%;
-  font-style: normal;
   font-size: 44px;
-  font-weight: 400;
   line-height: 50px;
   text-transform: uppercase;
   padding-left: 16px;
@@ -40,9 +38,5 @@
 .quote-big__cite {
   display: inline-block;
   width: 280px;
-  font-style: normal;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 28px;
   margin-left: 30px;
 }
