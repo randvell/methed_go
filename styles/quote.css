@@ -5,7 +5,11 @@
 }
 
 .quote-big-cite__block {
+  margin-left: auto;
   padding-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
 }
 
 .quote-big__text {
