@@ -14,7 +14,7 @@
 }
 
 .faq__element:after {
-  content: url("/assets/open-purple.svg");
+  content: url("../images/icons/open_purple.svg");
   display: inline-block;
   position: absolute;
   top: 25%;
@@ -24,5 +24,5 @@
 }
 
 .faq__element:nth-child(even):after {
-  content: url("/assets/open.svg");
+  content: url("../images/icons/open.svg");
 }

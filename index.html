@@ -11,10 +11,13 @@
 </head>
 
 <body class="container">
-  <header class="section header">
-    <h1 class="header-name">GAME OVER</h1>
-    <p class="header-slogan">Новый формат игр и отдыха</p>
-    <!--
+  <main>
+    <section class="section">
+      <div class="header">
+        <h1 class="header-name">GAME OVER</h1>
+        <p class="header-slogan">Новый формат игр и отдыха</p>
+      </div>
+      <!--
       <img src="images/logo.png" alt="GO Logo">
       <nav>
         <h2>Меню</h2>
@@ -28,9 +31,7 @@
         </ul>
       </nav>
       -->
-  </header>
-
-  <main>
+    </section>
     <!--
       <section id="services">
         <h2>У нас есть всё для классного отдыха с друзьями!</h2>
@@ -82,30 +83,22 @@
       <ul class="room__list">
         <li class="room__element room-80">
           <a class="room__link" href="vibes.html">
-            <div class="room__name">
-              80's vibes
-            </div>
+            80's vibes
           </a>
         </li>
         <li class="room__element room-starwars">
           <a class="room__link" href="starwars.html">
-            <p class="room__name">
-              Star wars
-            </p>
+            Star wars
           </a>
         </li>
         <li class="room__element room-wildwest">
           <a class="room__link" href="wildwest.html">
-            <p class="room__name">
-              Wild west
-            </p>
+            Wild west
           </a>
         </li>
         <li class="room__element room-neonstyle">
           <a class="room__link" href="neon.html">
-            <p class="room__name">
-              Neon style
-            </p>
+            Neon style
           </a>
         </li>
       </ul>
@@ -214,7 +207,7 @@
       <p>Для наших гостей мы создали <i>концептуально новое игровое пространство виртуальной реальности</i> в
         центральной
         части города.</p>
-
+      <br>
       <p>Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми
         разработками со всего мира</p>
 
@@ -223,10 +216,13 @@
           GAME OVER —<br>
           это место незабываемых впечатлений
         </p>
-        <div class="quote-big__footer">
-          <div class="quote-big-avatar__block"></div>
-          <cite class="quote-big__cite">Аркадий Абакшин,<br> создатель игровой территории GAME OVER</cite>
-        </div>
+        <figure class="quote-big-cite__block">
+          <img class="quote-big-cite__image" src="images/avatar.jpg">
+          <figcaption class="quote-big-cite__text">
+            Аркадий Абакшин,<br>
+            создатель игровой территории GAME OVER
+          </figcaption>
+        </figure>
       </blockquote>
     </section>
 
@@ -283,7 +279,7 @@
     </section>
   </main>
 
-  <footer>
+  <footer class="section footer">
     <section id="contacts">
       <h2>Контакты</h2>
 
@@ -356,7 +352,6 @@
 
         </ul>
       </div>
-
     </section>
   </footer>
 </body>

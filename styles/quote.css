@@ -1,10 +1,20 @@
+.quote-big {
+  display: block;
+  margin: 0;
+  padding-top: 80px;
+}
+
+.quote-big-cite__block {
+  padding-top: 40px;
+}
+
 .quote-big__text {
   width: 100%;
   font-size: 44px;
   line-height: 50px;
   text-transform: uppercase;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 55px;
+  padding-right: 55px;
 }
 
 .quote-big__text::before {
@@ -19,24 +29,16 @@
   font-weight: 900;
 }
 
-.quote-big__footer {
-  display: flex;
-  justify-content: right;
-  padding-top: 40px;
-}
-
-.quote-big-avatar__block {
+.quote-big-cite__image {
+  display: inline-block;
   width: 80px;
   height: 80px;
-  border-radius: 80px;
-  background: url('/images/avatar.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center top -10px;
+  margin-right: 30px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
-.quote-big__cite {
+.quote-big-cite__text {
   display: inline-block;
   width: 280px;
-  margin-left: 30px;
 }

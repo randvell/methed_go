@@ -1,12 +1,14 @@
 .room__element {
-  height: 710px;
-  margin-top: 60px;
+  padding: 275px 477px;
+  margin-bottom: 60px;
+}
+
+.room__element:last-child {
+  margin-bottom: 0;
 }
 
 .room__link {
-  height: 710px;
-  display: flex;
-  justify-content: center;
+  display: block;
   text-align: center;
   font-size: 70px;
   font-weight: 700;
@@ -14,24 +16,18 @@
   text-transform: uppercase;
 }
 
-.room__name {
-  width: 252px;
-  height: 160px;
-  margin-top: 275px;
-}
-
 .room-80 {
-  background: url('/images/room_80s.jpg');
+  background: url('../images/room_80s.jpg');
 }
 
 .room-starwars {
-  background: url('/images/room_star_wars.jpg');
+  background: url('../images/room_star_wars.jpg');
 }
 
 .room-wildwest {
-  background: url('/images/room_wild_west.jpg');
+  background: url('../images/room_wild_west.jpg');
 }
 
 .room-neonstyle {
-  background: url('/images/room_neon_style.jpg');
+  background: url('../images/room_neon_style.jpg');
 }
