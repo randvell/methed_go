@@ -8,13 +8,17 @@
   margin-bottom: 20px;
 }
 
+.faq__element:last-child {
+  margin-bottom: 0;
+}
+
 .faq__element:nth-child(even) {
   background-color: #440f51;
   color: #fff;
 }
 
 .faq__element:after {
-  content: url("../images/icons/open_purple.svg");
+  content: url("../assets/icons/open_purple.svg");
   display: inline-block;
   position: absolute;
   top: 25%;
@@ -24,5 +28,5 @@
 }
 
 .faq__element:nth-child(even):after {
-  content: url("../images/icons/open.svg");
+  content: url("../assets/icons/open.svg");
 }

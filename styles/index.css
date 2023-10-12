@@ -1,8 +1,9 @@
 @import "normalize.css";
 @import "global.css";
-@import "header.css";
+@import "presentation.css";
+@import "booking.css";
 @import "faq.css";
 @import "room.css";
+@import "about.css";
+@import "social.css";
 @import "contacts.css";
-@import "quote.css";
-@import "social.css"

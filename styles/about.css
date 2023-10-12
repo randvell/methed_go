@@ -1,48 +1,48 @@
-.quote-big {
-  display: block;
+.slogan {
+  position: relative;
+  width: 100%;
   margin: 0;
   padding-top: 80px;
+  padding-left: 55px;
 }
 
-.quote-big-cite__block {
-  margin-left: auto;
-  padding-top: 40px;
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: row;
-}
-
-.quote-big__text {
-  width: 100%;
+.slogan__text--uppercase {
   font-size: 44px;
   line-height: 50px;
   text-transform: uppercase;
-  padding-left: 55px;
-  padding-right: 55px;
 }
 
-.quote-big__text::before {
+.slogan__text::before {
+  position: absolute;
+  left: 0;
   content: "“ ";
   color: #6C0287;
   font-weight: 900;
 }
 
-.quote-big__text::after {
+.slogan__paragraph--end::after {
   content: " ”";
   color: #6C0287;
   font-weight: 900;
+  font-size: 44px;
 }
 
-.quote-big-cite__image {
+.slogan__figure {
+  padding-top: 40px;
+  float: right
+}
+
+.slogan__avatar {
   display: inline-block;
   width: 80px;
   height: 80px;
   margin-right: 30px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: 0 -10px;
 }
 
-.quote-big-cite__text {
+.slogan__author {
   display: inline-block;
   width: 280px;
 }

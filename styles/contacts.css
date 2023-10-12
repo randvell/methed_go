@@ -1,30 +1,37 @@
-.contacts__text {
-  display: inline-block;
+.address {
+  font-style: normal;
+}
+
+.address__element {
+  position: relative;
   width: 415px;
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
-  margin-top: 11px;
-  margin-bottom: 11px;
+  padding-left: 65px;
+  padding-top: 11px;
+  padding-bottom: 11px;
 }
 
-.contacts-address {
+.address__element--big_padding {
   padding-bottom: 38px;
 }
 
-.contacts__element::before {
-  padding-right: 30px;
+.address__element::before {
+  position: absolute;
+  left: 0;
   width: 35px;
+  height: 32px;
 }
 
-.contacts-address::before {
-  content: url('/images/icons/contacts-location.svg');
+.address__element--location::before {
+  content: url('/assets/icons/contacts-location.svg');
 }
 
-.contacts-phone::before {
-  content: url('/images/icons/contacts-phone.svg');
+.address__element--phone::before {
+  content: url('/assets/icons/contacts-phone.svg');
 }
 
-.contacts-email::before {
-  content: url('/images/icons/contacts-mail.svg');
+.address__element--email::before {
+  content: url('/assets/icons/contacts-mail.svg');
 }
