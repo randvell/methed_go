@@ -25,13 +25,13 @@
 }
 
 .address__element--location::before {
-  content: url('/assets/icons/contacts-location.svg');
+  content: url('../assets/icons/contacts-location.svg');
 }
 
 .address__element--phone::before {
-  content: url('/assets/icons/contacts-phone.svg');
+  content: url('../assets/icons/contacts-phone.svg');
 }
 
 .address__element--email::before {
-  content: url('/assets/icons/contacts-mail.svg');
+  content: url('../assets/icons/contacts-mail.svg');
 }
