@@ -2,8 +2,8 @@
   position: relative;
   width: 100%;
   margin: 0;
-  padding-top: 80px;
-  padding-left: 55px;
+  padding-top: 59px;
+  padding-left: 31px;
 }
 
 .slogan__text--uppercase {
@@ -12,15 +12,16 @@
   text-transform: uppercase;
 }
 
-.slogan__text::before {
+.slogan__text:before {
   position: absolute;
+  top: 50px;
   left: 0;
   content: "“ ";
   color: #6C0287;
   font-weight: 900;
 }
 
-.slogan__paragraph--end::after {
+.slogan__paragraph:last-child:after {
   content: " ”";
   color: #6C0287;
   font-weight: 900;
@@ -45,4 +46,33 @@
 .slogan__author {
   display: inline-block;
   width: 280px;
+}
+
+.about__wrapper {
+  overflow: hidden;
+}
+
+.about__paragraph:not(:last-child) {
+  padding-bottom: 28px;
+}
+
+.about__image {
+  height: 596px;
+  width: 600px;
+  padding-right: 80px;
+}
+
+.about__left {
+  float: left;
+  width: 50%;
+}
+
+.about__right {
+  float: right;
+  width: 50%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
 }

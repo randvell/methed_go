@@ -10,7 +10,7 @@
   <title>GAME OVER</title>
 </head>
 
-<body class="page">
+<body class="body">
   <main class="container main">
     <section class="presentation section">
       <div class="presentation__container">
@@ -78,7 +78,7 @@
       -->
 
     <section class="room section" id="room">
-      <h2>Наши залы</h2>
+      <h2 class="section__header">Наши залы</h2>
 
       <ul class="room__list">
         <li class="room__element room__element--80">
@@ -105,86 +105,86 @@
     </section>
 
     <section class="booking section" id="booking">
-      <h2>Забронировать</h2>
+      <h2 class="section__header">Забронировать</h2>
 
       <form class="booking__form" method="POST" action="https://jsonplaceholder.typicode.com/posts">
-        <fieldset class="booking__fieldset booking__fieldset--room">
+        <fieldset class="booking__fieldset">
           <legend class="booking__legend">Выбери зал</legend>
 
-          <input class="booking__input booking__input--radio" type="radio" id="room_80" name="room" value="room_80">
+          <input class="booking_input" type="radio" id="room_80" name="room" value="room_80">
           <label class="booking__label" for="room_80">80's vibes</label>
 
-          <input class="booking__input booking__input--radio" type="radio" id="room_starwars" name="room"
+          <input class="booking_input" type="radio" id="room_starwars" name="room"
             value="star_wars">
           <label class="booking__label" for="room_starwars">star wars</label>
 
-          <input class="booking__input booking__input--radio" type="radio" id="room_wildwest" name="room"
+          <input class="booking_input" type="radio" id="room_wildwest" name="room"
             value="wild_west">
           <label class="booking__label" for="room_wildwest">wild west</label>
 
-          <input class="booking__input booking__input--radio" type="radio" id="room_neon" name="room"
+          <input class="booking_input" type="radio" id="room_neon" name="room"
             value="neon_style">
           <label class="booking__label" for="room_neon">neon style</label>
         </fieldset>
 
-        <fieldset class="booking__fieldset booking__fieldset--facilities">
-          <legend class="booking__legend booking__legend--facilities">Собери набор развлечений</legend>
+        <fieldset class="booking__fieldset">
+          <legend class="booking__legend">Собери набор развлечений</legend>
 
-          <fieldset class="booking__fieldset booking__fieldset--gaming_platform">
-            <legend class="booking__legend booking__legend--gaming_platform">Приставка:</legend>
+          <fieldset class="booking__fieldset">
+            <legend class="booking__legend">Приставка:</legend>
 
-            <input class="booking__input booking__input--radio" type="radio" id="plaform_ps" name="platform"
+            <input class="booking__input" type="radio" id="plaform_ps" name="platform"
               value="playstation">
             <label class="booking__label" for="plaform_ps">Playstation</label>
 
-            <input class="booking__input booking__input--radio" type="radio" id="platform_sega" name="platform"
+            <input class="booking__input" type="radio" id="platform_sega" name="platform"
               value="sega">
             <label class="booking__label" for="platform_sega">Sega Mega Drive</label>
 
-            <input class="booking__input booking__input--radio" type="radio" id="platform_xbox" name="platform"
+            <input class="booking__input" type="radio" id="platform_xbox" name="platform"
               value="xbox">
             <label class="booking__label" for="platform_xbox">X-box One S</label>
 
-            <input class="booking__input booking__input--radio" type="radio" id="platform_dendy" name="platform"
+            <input class="booking__input" type="radio" id="platform_dendy" name="platform"
               value="dendy">
             <label class="booking__label" for="platform_dendy">Dendy</label>
           </fieldset>
 
-          <fieldset class="booking__fieldset booking__fieldset--board_games">
-            <legend class="booking__legend booking__legend--board_games">Настольные игры</legend>
+          <fieldset class="booking__fieldset">
+            <legend class="booking__legend">Настольные игры</legend>
 
-            <input class="booking__input booking__input--checkbox" type="checkbox" id="board_jenga" name="board_games"
+            <input class="booking__input" type="checkbox" id="board_jenga" name="board_games"
               value="jenga">
             <label class="booking__label" for="board_jenga">Jenga</label>
 
-            <input class="booking__input booking__input--checkbox" type="checkbox" id="board_monopoly"
+            <input class="booking__input" type="checkbox" id="board_monopoly"
               name="board_games" value="monopoly">
             <label class="booking__label" for="board_monopoly">Monopoly</label>
 
-            <input class="booking__input booking__input--checkbox" type="checkbox" id="board_manchkin"
+            <input class="booking__input" type="checkbox" id="board_manchkin"
               name="board_games" value="manchkin">
             <label class="booking__label" for="board_manchkin">Манчкин</label>
 
-            <input class="booking__input booking__input--checkbox" type="checkbox" id="board_alias" name="board_games"
+            <input class="booking__input" type="checkbox" id="board_alias" name="board_games"
               value="alias">
             <label class="booking__label" for="board_alias">Alias</label>
           </fieldset>
 
-          <fieldset class="booking__fieldset booking__fieldset--extra_service">
-            <legend class="booking__legend booking__legend--extra_service">Дополнительно</legend>
+          <fieldset class="booking__fieldset">
+            <legend class="booking__legend">Дополнительно</legend>
 
-            <input class="booking__input booking__input--checkbox" type="checkbox" id="service_karaoke"
+            <input class="booking__input" type="checkbox" id="service_karaoke"
               name="extra_service" value="karaoke">
             <label class="booking__label" for="service_karaoke">Караоке</label>
 
-            <input class="booking__input booking__input--checkbox" type="checkbox" id="service_vr" name="extra_service"
+            <input class="booking__input" type="checkbox" id="service_vr" name="extra_service"
               value="VR">
             <label class="booking__label" for="service_vr">VR</label>
           </fieldset>
         </fieldset>
 
-        <fieldset class="booking__fieldset booking__fieldset--datetime">
-          <legend class="booking__legend booking__legend--datetime">Выбери дату и время</legend>
+        <fieldset class="booking__fieldset">
+          <legend class="booking__legend">Выбери дату и время</legend>
 
           <label class="booking__label" for="booking_date">Дата<sup>*</sup></label>
           <input class="booking__input booking__input--date" type="date" id="booking_date" name="date" required>
@@ -193,52 +193,65 @@
           <input class="booking__input booking__input--time" type="time" id="booking_time" name="time" required>
 
           <label class="booking__label" for="booking_qty">Количество человек<sup>*</sup></label>
-          <input class="booking__input booking__input--text" type="text" id="booking_qty" name="person_qty" required>
+          <input class="booking__input" type="text" id="booking_qty" name="person_qty" required>
 
           <label class="booking__label" for="booking_name">Имя<sup>*</sup></label>
-          <input class="booking__input booking__input--text" type="text" id="booking_name" name="name" required>
+          <input class="booking__input" type="text" id="booking_name" name="name" required>
 
           <label class="booking__label" for="booking_surname">Фамилия<sup>*</sup></label>
-          <input class="booking__input booking__input--text" type="text" id="booking_surname" name="surname" required>
+          <input class="booking__input" type="text" id="booking_surname" name="surname" required>
 
           <label class="booking__label" for="booking_phone">Номер телефона<sup>*</sup></label>
-          <input class="booking__input booking__input--text" type="tel" id="booking_phone" name="phone" required>
+          <input class="booking__input" type="tel" id="booking_phone" name="phone" required>
 
-          <input class="booking__input booking__input--checkbox" type="checkbox" id="booking_age_confirmation"
+          <input class="booking__input" type="checkbox" id="booking_age_confirmation"
             name="age_confirmation">
           <label class="booking__label" for="booking_age_confirmation">Я старше 18 лет</label>
         </fieldset>
 
-        <button class="booking__confirmation" type="submit">Забронировать</button>
-        <input class="booking__input booking__input--checkbox booking__input--personal_data_confirmation"
+        <button class="booking__button" type="submit">Забронировать</button>
+        <input class="booking__input"
           type="checkbox" id="personal_data_confirmation" name="personal_data_confirmation" required>
         <label class="booking__label" for="personal_data_confirmation">Согласен на обработку данных</label>
       </form>
     </section>
 
     <section class="about section" id="about_us">
-      <h2>О нас</h2>
+      <h2 class="section__header">О нас</h2>
 
-      <p>Для наших гостей мы создали <i>концептуально новое игровое пространство виртуальной реальности</i> в
-        центральной
-        части города.</p>
-
-      <p>Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми
-        разработками со всего мира</p>
-
-      <blockquote class="slogan">
-        <div class="slogan__text slogan__text--uppercase">
-          <p>GAME OVER —</p>
-          <p class="slogan__paragraph slogan__paragraph--end">это место незабываемых впечатлений</p>
+      <div class="about__wrapper">
+        <div class="about__left">
+          <figure class="about__figure">
+            <img class="about__image" src="images/features.jpg">
+          </figure>
         </div>
-        <figure class="slogan__figure">
-          <img class="slogan__avatar" src="images/avatar.jpg">
-          <figcaption class="slogan__author">
-            Аркадий Абакшин,<br>
-            создатель игровой территории GAME OVER
-          </figcaption>
-        </figure>
-      </blockquote>
+        <div class="about__right">
+          <p class="about__paragraph">Для наших гостей мы создали <i>концептуально новое игровое пространство
+              виртуальной
+              реальности</i> в
+            центральной
+            части города.</p>
+
+          <p class="about__paragraph">Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и
+            радовать
+            Вас топовыми игровыми
+            разработками со всего мира</p>
+
+          <blockquote class="about__slogan slogan">
+            <div class="slogan__text slogan__text--uppercase">
+              <p class="slogan__paragraph">GAME OVER —</p>
+              <p class="slogan__paragraph">это место незабываемых впечатлений</p>
+            </div>
+            <figure class="slogan__figure">
+              <img class="slogan__avatar" src="images/avatar.jpg">
+              <figcaption class="slogan__author">
+                Аркадий Абакшин,<br>
+                создатель игровой территории GAME OVER
+              </figcaption>
+            </figure>
+          </blockquote>
+        </div>
+      </div>
     </section>
 
     <!--
@@ -283,7 +296,7 @@
     -->
 
     <section class="faq section" id="faq">
-      <h2>Частые вопросы</h2>
+      <h2 class="section__header">Частые вопросы</h2>
       <ul class="faq__list">
         <li class="faq__element">Можно ли забронировать комнату онлайн?</li>
         <li class="faq__element">Могут ли мне вернуть деньги за бронь?</li>
@@ -295,7 +308,7 @@
   </main>
 
   <footer class="section footer" id="contacts">
-    <h2>Контакты</h2>
+    <h2 class="section__header">Контакты</h2>
 
     <address class="address">
       <ul class="address__list">
