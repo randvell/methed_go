@@ -1,0 +1,46 @@
+.reviews__list {
+  padding-left: 100px; 
+}
+
+.reviews__element {
+  padding-bottom: 50px;
+}
+
+.reviews__element::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.reviews__figure {
+  float: left;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.reviews__img {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviews__img--first {
+  object-position: 0 -5px;
+}
+
+.reviews__img--second {
+  object-position: 0 -50px;
+}
+
+.reviews__img--third {
+  object-position: 0 -80px;
+}
+
+.reviews__paragraph {
+  padding-top: 52px;
+}
+
+.reviews__author {
+  padding-top: 10px;
+}

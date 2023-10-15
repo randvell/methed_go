@@ -111,19 +111,16 @@
         <fieldset class="booking__fieldset">
           <legend class="booking__legend">Выбери зал</legend>
 
-          <input class="booking_input" type="radio" id="room_80" name="room" value="room_80">
+          <input class="booking__input" type="radio" id="room_80" name="room" value="room_80">
           <label class="booking__label" for="room_80">80's vibes</label>
 
-          <input class="booking_input" type="radio" id="room_starwars" name="room"
-            value="star_wars">
+          <input class="booking__input" type="radio" id="room_starwars" name="room" value="star_wars">
           <label class="booking__label" for="room_starwars">star wars</label>
 
-          <input class="booking_input" type="radio" id="room_wildwest" name="room"
-            value="wild_west">
+          <input class="booking__input" type="radio" id="room_wildwest" name="room" value="wild_west">
           <label class="booking__label" for="room_wildwest">wild west</label>
 
-          <input class="booking_input" type="radio" id="room_neon" name="room"
-            value="neon_style">
+          <input class="booking__input" type="radio" id="room_neon" name="room" value="neon_style">
           <label class="booking__label" for="room_neon">neon style</label>
         </fieldset>
 
@@ -133,52 +130,42 @@
           <fieldset class="booking__fieldset">
             <legend class="booking__legend">Приставка:</legend>
 
-            <input class="booking__input" type="radio" id="plaform_ps" name="platform"
-              value="playstation">
+            <input class="booking__input" type="radio" id="plaform_ps" name="platform" value="playstation">
             <label class="booking__label" for="plaform_ps">Playstation</label>
 
-            <input class="booking__input" type="radio" id="platform_sega" name="platform"
-              value="sega">
+            <input class="booking__input" type="radio" id="platform_sega" name="platform" value="sega">
             <label class="booking__label" for="platform_sega">Sega Mega Drive</label>
 
-            <input class="booking__input" type="radio" id="platform_xbox" name="platform"
-              value="xbox">
+            <input class="booking__input" type="radio" id="platform_xbox" name="platform" value="xbox">
             <label class="booking__label" for="platform_xbox">X-box One S</label>
 
-            <input class="booking__input" type="radio" id="platform_dendy" name="platform"
-              value="dendy">
+            <input class="booking__input" type="radio" id="platform_dendy" name="platform" value="dendy">
             <label class="booking__label" for="platform_dendy">Dendy</label>
           </fieldset>
 
           <fieldset class="booking__fieldset">
             <legend class="booking__legend">Настольные игры</legend>
 
-            <input class="booking__input" type="checkbox" id="board_jenga" name="board_games"
-              value="jenga">
+            <input class="booking__input" type="checkbox" id="board_jenga" name="board_games" value="jenga">
             <label class="booking__label" for="board_jenga">Jenga</label>
 
-            <input class="booking__input" type="checkbox" id="board_monopoly"
-              name="board_games" value="monopoly">
+            <input class="booking__input" type="checkbox" id="board_monopoly" name="board_games" value="monopoly">
             <label class="booking__label" for="board_monopoly">Monopoly</label>
 
-            <input class="booking__input" type="checkbox" id="board_manchkin"
-              name="board_games" value="manchkin">
+            <input class="booking__input" type="checkbox" id="board_manchkin" name="board_games" value="manchkin">
             <label class="booking__label" for="board_manchkin">Манчкин</label>
 
-            <input class="booking__input" type="checkbox" id="board_alias" name="board_games"
-              value="alias">
+            <input class="booking__input" type="checkbox" id="board_alias" name="board_games" value="alias">
             <label class="booking__label" for="board_alias">Alias</label>
           </fieldset>
 
           <fieldset class="booking__fieldset">
             <legend class="booking__legend">Дополнительно</legend>
 
-            <input class="booking__input" type="checkbox" id="service_karaoke"
-              name="extra_service" value="karaoke">
+            <input class="booking__input" type="checkbox" id="service_karaoke" name="extra_service" value="karaoke">
             <label class="booking__label" for="service_karaoke">Караоке</label>
 
-            <input class="booking__input" type="checkbox" id="service_vr" name="extra_service"
-              value="VR">
+            <input class="booking__input" type="checkbox" id="service_vr" name="extra_service" value="VR">
             <label class="booking__label" for="service_vr">VR</label>
           </fieldset>
         </fieldset>
@@ -204,14 +191,13 @@
           <label class="booking__label" for="booking_phone">Номер телефона<sup>*</sup></label>
           <input class="booking__input" type="tel" id="booking_phone" name="phone" required>
 
-          <input class="booking__input" type="checkbox" id="booking_age_confirmation"
-            name="age_confirmation">
+          <input class="booking__input" type="checkbox" id="booking_age_confirmation" name="age_confirmation">
           <label class="booking__label" for="booking_age_confirmation">Я старше 18 лет</label>
         </fieldset>
 
         <button class="booking__button" type="submit">Забронировать</button>
-        <input class="booking__input"
-          type="checkbox" id="personal_data_confirmation" name="personal_data_confirmation" required>
+        <input class="booking__input" type="checkbox" id="personal_data_confirmation" name="personal_data_confirmation"
+          required>
         <label class="booking__label" for="personal_data_confirmation">Согласен на обработку данных</label>
       </form>
     </section>
@@ -222,7 +208,7 @@
       <div class="about__wrapper">
         <div class="about__left">
           <figure class="about__figure">
-            <img class="about__image" src="images/features.jpg">
+            <img class="about__image" src="images/features.jpg" alt="Изображение доступных развлечений">
           </figure>
         </div>
         <div class="about__right">
@@ -254,46 +240,36 @@
       </div>
     </section>
 
-    <!--
-      <section id="reviews">
-        <h2>Отзывы посетителей</h2>
+    <section class="reviews section" id="reviews">
+      <h2 class="section__header">Отзывы посетителей</h2>
 
-        <ul>
-          <li>
-            <article>
-              <p>Отмечали здесь день рождения с компанией друзей, все было очень круто! VR очки это просто бомба,
-                никогда
-                я не был в таком полном игровом погружении. Сервис на высоте</p>
-              <figure>
-                <img src="1.jpg" alt="">
-                <figcaption>Макс Самойлов</figcaption>
-              </figure>
-            </article>
-          </li>
-          <li>
-            <article>
-              <p>Были в комнате Дикий Запад, пели в караоке под Шакиру, отличный получился корпоратив! У нас в городе
-                больше нет подобных заведений</p>
-              <figure>
-                <img src="2.jpg" alt="">
-                <figcaption>Оксана Григорьева</figcaption>
-              </figure>
-            </article>
-          </li>
-          <li>
-            <article>
-              <p>Немного подвисала игра в VR очках, а так все норм. Крутое оформление комнаты в стиле звездных войн,
-                попал
-                в атмосферу космоса</p>
-              <figure>
-                <img src="3.jpg" alt="">
-                <figcaption>Никита Ященко</figcaption>
-              </figure>
-            </article>
-          </li>
-        </ul>
-      </section>
-    -->
+      <ul class="reviews__list">
+        <li class="reviews__element">
+          <figure class="reviews__figure">
+            <img class="reviews__img reviews__img--first" src="images/review_1.jpg" alt="Фото Макс Самойлов">
+            <figcaption class="reviews__author">Макс Самойлов</figcaption>
+          </figure>
+          <p class="reviews__paragraph">Отмечали здесь день рождения с компанией друзей, все было очень круто! VR очки
+            это просто бомба, никогда я не был в таком полном игровом погружении. Сервис на высоте</p>
+        </li>
+        <li class="reviews__element">
+          <figure class="reviews__figure">
+            <img class="reviews__img reviews__img--second" src="images/review_2.jpg" alt="Фото Оксана Григорьева">
+            <figcaption class="reviews__author">Оксана Григорьева</figcaption>
+          </figure>
+          <p class="reviews__paragraph">Были в комнате Дикий Запад, пели в караоке под Шакиру, отличный получился
+            корпоратив! У нас в городе больше нет подобных заведений</p>
+        </li>
+        <li class="reviews__element">
+          <figure class="reviews__figure">
+            <img class="reviews__img reviews__img--third" src="images/review_3.jpg" alt="Фото Никита Ященко">
+            <figcaption class="reviews__author">Никита Ященко</figcaption>
+          </figure>
+          <p class="reviews__paragraph">Немного подвисала игра в VR очках, а так все норм. Крутое оформление комнаты в
+            стиле звездных войн, попал в атмосферу космоса</p>
+        </li>
+      </ul>
+    </section>
 
     <section class="faq section" id="faq">
       <h2 class="section__header">Частые вопросы</h2>

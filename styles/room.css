@@ -1,31 +1,39 @@
 .room__element {
-  padding: 275px 477px;
-  margin-bottom: 60px;
+  display: inline-block;
+  position: relative;
+  width: 48%;
+  padding: 135px 0;
+  margin: 0 20px 20px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 
-.room__element:last-child {
+.room__element:nth-child(2n) {
+  margin-right: 0;
+}
+
+.room__element:nth-last-child(-n+2) {
   margin-bottom: 0;
 }
 
 .room__element--80 {
-  background: url('../images/room_80s.jpg');
+  background-image: url('../images/room_80s.jpg');
 }
 
 .room__element--starwars {
-  background: url('../images/room_star_wars.jpg');
+  background-image: url('../images/room_star_wars.jpg');
 }
 
 .room__element--wildwest {
-  background: url('../images/room_wild_west.jpg');
+  background-image: url('../images/room_wild_west.jpg');
 }
 
 .room__element--neonstyle {
-  background: url('../images/room_neon_style.jpg');
+  background-image: url('../images/room_neon_style.jpg');
 }
 
 .room__link {
-  display: block;
-  text-align: center;
   font-size: 70px;
   font-weight: 700;
   line-height: 80px;
