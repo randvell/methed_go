@@ -1,5 +1,6 @@
 .address {
   font-style: normal;
+  margin-bottom: 40px;
 }
 
 .address__element {
@@ -10,11 +11,11 @@
   line-height: 28px;
   padding-left: 65px;
   padding-top: 11px;
-  padding-bottom: 11px;
+  margin-bottom: 11px;
 }
 
-.address__element--big_padding {
-  padding-bottom: 38px;
+.address__element--big_margin {
+  margin-bottom: 38px;
 }
 
 .address__element::before {

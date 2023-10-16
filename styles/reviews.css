@@ -1,9 +1,9 @@
-.reviews__list {
+.reviews__wrapper {
   padding-left: 100px; 
 }
 
-.reviews__element {
-  padding-bottom: 50px;
+.reviews__element:not(:last-child) {
+  margin-bottom: 50px;
 }
 
 .reviews__element::after {
@@ -23,6 +23,7 @@
   height: 280px;
   border-radius: 50%;
   object-fit: cover;
+  margin-bottom: 10px;
 }
 
 .reviews__img--first {
@@ -39,8 +40,4 @@
 
 .reviews__paragraph {
   padding-top: 52px;
-}
-
-.reviews__author {
-  padding-top: 10px;
 }
