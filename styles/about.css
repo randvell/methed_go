@@ -5,14 +5,13 @@
   padding-left: 31px;
 }
 
-.slogan__text_block--uppercase {
+.slogan__text-block {
   font-size: 44px;
   line-height: 50px;
-  text-transform: uppercase;
   margin-bottom: 39px;
 }
 
-.slogan__text_block:before {
+.slogan__text-block:before {
   position: absolute;
   top: -10px;
   left: 0;
@@ -51,7 +50,7 @@
   overflow: hidden;
 }
 
-.about__text_block {
+.about__text-block {
   margin-bottom: 59px;
 }
 

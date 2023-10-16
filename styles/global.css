@@ -101,3 +101,7 @@ iframe {
   line-height: 50px;
   text-transform: uppercase;
 }
+
+.uppercase {
+  text-transform: uppercase;
+}
