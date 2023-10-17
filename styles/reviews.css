@@ -2,6 +2,11 @@
   padding: 0 100px;
 }
 
+.reviews__paragraph {
+  display: inline-block;
+  width: 680px;
+}
+
 .reviews__element:not(:last-child) {
   margin-bottom: 50px;
 }
@@ -36,8 +41,4 @@
 
 .reviews__img--third {
   object-position: 0 -80px;
-}
-
-.reviews__paragraph {
-  padding-top: 52px;
 }
