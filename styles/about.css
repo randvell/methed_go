@@ -51,9 +51,12 @@
 }
 
 .about__text-block {
-  float: right;
-  width: 500px;
   margin-bottom: 59px;
+}
+
+.about__text-wrapper {
+  display: inline-block;
+  width: 500px;
 }
 
 .about__paragraph:not(:last-child) {

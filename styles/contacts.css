@@ -11,10 +11,13 @@
   line-height: 28px;
   padding-left: 65px;
   padding-top: 11px;
+}
+
+.address__element:not(:last-child) {
   margin-bottom: 11px;
 }
 
-.address__element--big_margin {
+.address__element.address__element--big_margin {
   margin-bottom: 38px;
 }
 
