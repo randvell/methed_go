@@ -1,0 +1,47 @@
+.service__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 20px;
+}
+
+.service__item {
+  display: flex;
+  flex-basis: 380px;
+  flex-shrink: 0;
+  align-items: flex-end;
+  height: 228px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.service__name {
+  min-height: 56px;
+  font-weight: 700;
+  padding: 0 40px;
+  margin-bottom: 6px;
+}
+
+.service__item--vr {
+  background-image: url("../images/vr.jpg");
+}
+
+.service__item--audio {
+  background-image: url("../images/audio.jpg");
+}
+
+.service__item--karaoke {
+  background-image: url("../images/karaoke.jpg");
+}
+
+.service__item--games {
+  background-image: url("../images/game.jpg");
+}
+
+.service__item--netflix {
+  background-image: url("../images/netflix.jpg");
+}
+
+.service__item--ps {
+  background-image: url("../images/sony.jpg");
+}

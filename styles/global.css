@@ -82,19 +82,30 @@ iframe {
 
 .body {
   max-width: 1240px;
-  padding: 0 30px;
+  padding: 30px;
   margin: 0 auto;
 }
 
 .section {
-  clear: right;
+  display: flex;
+  flex-direction: column;
+
   padding-bottom: 50px;
   padding-top: 50px;
-  display: flow-root;
+}
+
+.section__flex {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 60px;
 }
 
 .section__header {
-  margin-bottom: 50px;
+  align-self: center;
+
+  max-width: 980px;
+  margin-bottom: 40px;
+  
   text-align: center;
   font-size: 40px;
   font-weight: 700;

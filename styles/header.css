@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: white;
+  font-family: Arial;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.navigation__list {
+  display: flex;
+  gap: 40px;
+
+  line-height: 50px;
+}
+
+.call__button {
+  background: none;
+  width: 280px;
+  height: 55px;
+  border-radius: 10px;
+  border: 3px solid #cd06ff;
+
+  color: white;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+}

@@ -1,3 +1,80 @@
-.booking__button {
-  background: white;
+.booking {
+  background: #440f51;
+}
+
+/* .booking__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+
+.booking__fieldset {
+  display: flex;
+  flex-wrap: wrap;
+
+  border: 0;
+  font-size: 22px;
+}
+
+.booking__fieldset:not(:last-child) {
+  margin-bottom: 60px;
+}
+
+.booking__legend {  
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+
+.booking__input[type="radio"] {
+  margin-right: 12px;
+  width: 27px;
+  height: 27px;
+}
+
+.booking__input[type="checkbox"] {
+  margin-right: 12px;
+  width: 25px;
+  height: 25px;
+}
+
+.booking__fieldset--room {
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
+  gap: 60px;
+}
+
+.booking__fieldset--flex-row {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 300px;
+  align-content: flex-start;
+}
+
+
+.booking__input--room {
+  display: none;
+}
+
+.booking__label--room {
+  flex: 250px 0 1;
+  max-width: 250px;
+  padding: 7px 15px;
+  border: solid 2px #ccc;
+  border-radius: 8px;
+  background: #FFF;
+
+  color: #000;
+
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.booking__input--room:checked+label {
+  background-color: tomato;
 }
