@@ -10,7 +10,7 @@
   align-items: center;
 
   flex-basis: 580px;
-  min-height: 349px;
+  max-height: 349px;
 
   background-size: cover;
   background-repeat: no-repeat;

@@ -2,29 +2,35 @@
   background: #440f51;
 }
 
-/* .booking__form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} */
-
 .booking__fieldset {
   display: flex;
   flex-wrap: wrap;
 
   border: 0;
   font-size: 22px;
+  padding: 0;
 }
 
-.booking__fieldset:not(:last-child) {
+.booking__fieldset {
   margin-bottom: 60px;
 }
 
-.booking__legend {  
+.booking__fieldset:last-child() {
+  margin-bottom: 0;
+}
+
+.booking__legend {
+  display: inline-block;
+  text-align: center;
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
   margin-bottom: 40px;
+}
+
+.booking__label {
+  display: flex;
+  align-items: center;
 }
 
 .booking__input[type="radio"] {
@@ -42,23 +48,34 @@
 .booking__fieldset--room {
   flex-wrap: nowrap;
   justify-content: space-between;
-
   gap: 60px;
 }
 
-.booking__fieldset--flex-row {
+.booking__fieldset--all-services {
   display: flex;
-  flex-direction: column;
-  flex-basis: 300px;
-  align-content: flex-start;
+  justify-content: space-around;
+  margin-bottom: 0;
 }
 
+.booking__fieldset--services {
+  display: flex;
+  flex-basis: 300px;
+  flex-direction: column;
+  align-content: flex-start;
+  gap: 20px;
+}
+
+.booking__legend--services {
+  margin-bottom: 24px;
+  text-align: left;
+}
 
 .booking__input--room {
   display: none;
 }
 
 .booking__label--room {
+  justify-content: center;
   flex: 250px 0 1;
   max-width: 250px;
   padding: 7px 15px;
@@ -67,7 +84,6 @@
   background: #FFF;
 
   color: #000;
-
   text-align: center;
   font-size: 30px;
   font-weight: 700;

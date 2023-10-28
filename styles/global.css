@@ -80,12 +80,6 @@ iframe {
   transform: scale(0);
 }
 
-.body {
-  max-width: 1240px;
-  padding: 30px;
-  margin: 0 auto;
-}
-
 .section {
   display: flex;
   flex-direction: column;
@@ -94,10 +88,19 @@ iframe {
   padding-top: 50px;
 }
 
-.section__flex {
+.section, .section__container {
+  max-width: 1240px;
+  padding: 30px;
+  margin: 0 auto;
+
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
   column-gap: 60px;
+}
+
+.section--full-width {
+  max-width: 100%;
 }
 
 .section__header {
