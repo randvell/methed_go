@@ -1,6 +1,17 @@
 .presentation__container {
+  display: flex;
+  flex-direction: column;
+  align-content: start;
+
   position: relative;
   height: 850px;
+}
+
+.presentation__text-container {
+  display: flex;
+  align-items: flex-end;
+  gap: 43px;
+  margin-bottom: 150px;
 }
 
 .presentation__container::before {
@@ -28,24 +39,25 @@
 }
 
 .presentation__text {
+  max-width: 200px;
   text-align: center;
   font-size: 30px;
   font-weight: 400;
 }
 
 .presentation__number {
-  min-height: 141px;
   color: #cd06ff;
   font-size: 100px;
   font-weight: 900;
+  line-height: normal;
 }
 
 .presentation__label {
-  min-height: 106px;
   color: #cd06ff;
   font-size: 75px;
   font-weight: 900;
   font-variant: all-small-caps;
+  line-height: normal;
 }
 
 .presentation__button--booking {
@@ -64,11 +76,16 @@
 }
 
 .presentation__button--down {
+  z-index: 1;
+  align-self: center;
+
   border: none;
   background-color: transparent;
   background-image: url("../assets/icons/down.svg");
   background-position: center;
   background-size: cover;
+
   width: 97px;
   height: 97px;
+  margin-bottom: 90px;
 }

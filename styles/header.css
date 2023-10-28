@@ -1,7 +1,5 @@
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: row;
 
   color: white;
   font-family: Arial;
@@ -18,7 +16,7 @@
   line-height: 50px;
 }
 
-.call__button {
+.call-button {
   background: none;
   width: 280px;
   height: 55px;

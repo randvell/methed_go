@@ -82,29 +82,27 @@ iframe {
 
 .section {
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
+  margin: 0 auto;
 
-  padding-bottom: 50px;
-  padding-top: 50px;
+  padding: 50px 0;
+}
+
+.section__container {
+  display: flex;
+  padding: 0;
 }
 
 .section, .section__container {
-  max-width: 1240px;
-  padding: 50px 0;
-  margin: 0 auto;
-
-  display: flex;
-  justify-content: center;
+  max-width: 1180px;
   flex-wrap: wrap;
   column-gap: 60px;
 }
 
-.section__container {
-  padding: 0;
-}
-
 .section--full-width {
   max-width: 100%;
+  align-content: center;
 }
 
 .section__header {

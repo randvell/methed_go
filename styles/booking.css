@@ -111,32 +111,29 @@
 
 .booking__input[type="text"] {
   border: none;
-  max-width: 300px;
-  max-height: 52px;
+  width: 300px;
+  height: 52px;
   padding: 12px 20px;
 }
 
 .booking__input--short[type="text"] {
   max-width: 134px;
-  margin-right: 32px;
+  margin-right: 26px;
 }
 
 .booking__input--short:last-child {
-  max-width: 134px;
   margin-right: 0;
 }
 
 .booking__button {
-  justify-self: flex-end;
+  margin-top: 30px;
 
   width: 300px;
   height: 60px;
-
   border-radius: 10px;
   background: #fff;
 
-  color: #6C0287;
-
+  color: #6c0287;
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
@@ -145,5 +142,24 @@
 }
 
 .booking__fieldset--datetime {
-  justify-content: space-between;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 14px 50px;
+}
+
+.booking__input::placeholder {
+  color: #211e1e;
+
+  font-size: 18px;
+  font-style: normal;
+  line-height: 28px;
+}
+
+.booking__label--above {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+
+  margin-bottom: 3px;
 }
