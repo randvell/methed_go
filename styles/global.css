@@ -90,13 +90,17 @@ iframe {
 
 .section, .section__container {
   max-width: 1240px;
-  padding: 30px;
+  padding: 50px 0;
   margin: 0 auto;
 
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   column-gap: 60px;
+}
+
+.section__container {
+  padding: 0;
 }
 
 .section--full-width {

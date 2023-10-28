@@ -41,6 +41,12 @@
       <div class="presentation__container">
         <h1 class="presentation__header">GAME OVER</h1>
         <p class="presentation__slogan">Новый формат игр и отдыха</p>
+        <p class="presentation__number">4</p>
+        <p class="presentation__text">Тематических зала</p>
+        <p class="presentation__label">NEW</p>
+        <p class="presentation__text">Новейшая аппаратура</p>
+        <input class="presentation__button presentation__button--booking" type="button" value="Забронировать">
+        <input class="presentation__button presentation__button--down">
       </div>
     </section>
 
@@ -187,14 +193,15 @@
             </fieldset>
           </fieldset>
 
-          <fieldset class="booking__fieldset booking__fieldset">
+          <fieldset class="booking__fieldset booking__fieldset--datetime">
             <legend class="booking__legend">Выбери дату и время</legend>
 
-            <label class="booking__label" for="booking_date">Дата</label>
-            <input class="booking__input booking__input--date" type="date" id="booking_date" name="date" required>
-
-            <label class="booking__label" for="booking_time">Время</label>
-            <input class="booking__input booking__input--time" type="time" id="booking_time" name="time" required>
+            <div class="booking_wrapper">
+              <input class="booking__input booking__input--short booking__input--bottom-arrow" type="text"
+                id="booking_date" name="date" placeholder="Дата" required>
+              <input class="booking__input booking__input--short booking__input--bottom-arrow" type="text"
+                id="booking_time" name="time" placeholder="Время" required>
+            </div>
 
             <label class="booking__label" for="booking_name">Имя</label>
             <input class="booking__input" type="text" id="booking_name" name="name" required>
@@ -202,8 +209,8 @@
             <label class="booking__label" for="booking_phone">Телефон</label>
             <input class="booking__input" type="tel" id="booking_phone" name="phone" required>
 
-            <label class="booking__label" for="booking_qty">Сколько человек</label>
-            <input class="booking__input" type="text" id="booking_qty" name="person_qty" required>
+            <input class="booking__input booking__input--bottom-arrow" type="text" id="booking_qty" name="person_qty"
+              placeholder="Сколько человек" required>
 
             <label class="booking__label" for="booking_surname">Фамилия</label>
             <input class="booking__input" type="text" id="booking_surname" name="surname" required>
@@ -299,10 +306,9 @@
   </main>
 
   <footer class="footer section section--full-width" id="contacts">
-    <div class="section__container section__container--noflex">
-      <h2 class="section__header">Контакты</h2>
-
-      <div class="section__flex">
+    <h2 class="section__header">Контакты</h2>
+    <div class="section__container">
+      <div class="wrapper">
         <div class="footer__column">
           <address class="address">
             <ul class="address__list">
@@ -374,8 +380,8 @@
             </ul>
           </div>
         </div>
-        <img class="footer__map" src="/images/map.jpg" alt="Как проехать к нам">
       </div>
+      <img class="footer__map" src="/images/map.jpg" alt="Как проехать к нам">
     </div>
   </footer>
 </body>

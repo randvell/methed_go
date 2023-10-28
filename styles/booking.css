@@ -1,5 +1,7 @@
 .booking {
   background: #440f51;
+  padding: 80px 30px;
+  margin-top: 50px;
 }
 
 .booking__fieldset {
@@ -93,4 +95,55 @@
 
 .booking__input--room:checked+label {
   background-color: tomato;
+}
+
+.booking__input--bottom-arrow {
+  position: relative;
+}
+
+.booking__input--bottom-arrow::after {
+  content: url("../assets/icons/arrow_bot.svg");
+  display: inline-block;
+  position: absolute;
+  width: 21px;
+  height: 15px;
+}
+
+.booking__input[type="text"] {
+  border: none;
+  max-width: 300px;
+  max-height: 52px;
+  padding: 12px 20px;
+}
+
+.booking__input--short[type="text"] {
+  max-width: 134px;
+  margin-right: 32px;
+}
+
+.booking__input--short:last-child {
+  max-width: 134px;
+  margin-right: 0;
+}
+
+.booking__button {
+  justify-self: flex-end;
+
+  width: 300px;
+  height: 60px;
+
+  border-radius: 10px;
+  background: #fff;
+
+  color: #6C0287;
+
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.booking__fieldset--datetime {
+  justify-content: space-between;
 }
