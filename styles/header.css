@@ -2,21 +2,18 @@
   flex-direction: row;
 
   color: white;
-  font-family: Arial;
   font-size: 22px;
   text-transform: uppercase;
-
   padding-top: 30px;
 }
 
 .navigation__list {
   display: flex;
   gap: 40px;
-
   line-height: 50px;
 }
 
-.call-button {
+.header__call-button {
   background: none;
   width: 280px;
   height: 55px;
@@ -27,4 +24,15 @@
   font-weight: 700;
   line-height: 30px;
   text-transform: uppercase;
+}
+
+.header__call-button:hover,
+.header__call-button:focus {
+  border: 3px solid #6c0287;
+  background: #6c0287;
+}
+
+.header__call-button:active {
+  border: 1px solid #000;
+  background: #640aa3;
 }

@@ -9,6 +9,15 @@
   margin-right: 26px;
 }
 
+.social__item:hover,
+.social__item:focus {
+  color: #eadeed
+}
+
+.social__item:active {
+  color: #cd06ff
+}
+
 .address {
   margin-bottom: 40px;
   max-width: 440px;
@@ -43,6 +52,7 @@
 
 .address__element--location::before {
   content: url('../assets/icons/contacts-location.svg');
+  padding-top: 13px;
 }
 
 .address__element--phone::before {
@@ -51,8 +61,4 @@
 
 .address__element--email::before {
   content: url('../assets/icons/contacts-mail.svg');
-}
-
-.section__container--footer {
-  justify-content: space-between;
 }

@@ -61,6 +61,7 @@
 }
 
 .presentation__button--booking {
+  z-index: 1;
   width: 374px;
   height: 80px;
 
@@ -73,6 +74,17 @@
   font-weight: 700;
   line-height: 30px;
   text-transform: uppercase;
+}
+
+.presentation__button--booking:hover,
+.presentation__button--booking:focus {
+  border-radius: 10px;
+  background: #840aa3;
+}
+
+.presentation__button--booking:active {
+  border-radius: 10px;
+  background: #640aa3;
 }
 
 .presentation__button--down {
@@ -88,4 +100,12 @@
   width: 97px;
   height: 97px;
   margin-bottom: 90px;
+}
+
+.presentation__button--down:hover {
+  background-image: url("../assets/icons/down_hover.svg");
+}
+
+.presentation__button--down:active {
+  background-image: url("../assets/icons/down_active.svg");
 }

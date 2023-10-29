@@ -35,16 +35,12 @@
   align-items: center;
 }
 
-.booking__input[type="radio"] {
+.booking__input[type="radio"],
+.booking__input[type="checkbox"] {
   margin-right: 12px;
   width: 27px;
   height: 27px;
-}
-
-.booking__input[type="checkbox"] {
-  margin-right: 12px;
-  width: 25px;
-  height: 25px;
+  padding: 3px;
 }
 
 .booking__fieldset--room {
@@ -81,7 +77,7 @@
   flex: 250px 0 1;
   max-width: 250px;
   padding: 7px 15px;
-  border: solid 2px #ccc;
+  border: solid 3px #ccc;
   border-radius: 8px;
   background: #FFF;
 
@@ -93,8 +89,23 @@
   text-transform: uppercase;
 }
 
+.booking__input--room:hover+label {
+  border-radius: 8px;
+  border: 3px solid #6c0287;
+  background: #eadeed;
+}
+
 .booking__input--room:checked+label {
-  background-color: tomato;
+  color: #fff;
+  border-radius: 8px;
+  border: 3px solid #fff;
+  background: #6c0287;
+}
+
+.booking__label--room:focus {
+  border-radius: 8px;
+  border: 3px solid #640aa3;
+  background: #fff;
 }
 
 .booking__input--bottom-arrow {
@@ -147,6 +158,12 @@
   gap: 14px 50px;
 }
 
+.booking__input:focus,
+.booking__input:focus-visible {
+  outline: 2px solid #CD06FF;
+  background: #FFF;
+}
+
 .booking__input::placeholder {
   color: #211e1e;
 
@@ -160,6 +177,22 @@
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
-
   margin-bottom: 3px;
+}
+
+.booking__button:hover {
+  border-radius: 10px;
+  border: 3px solid #6c0287;
+  background: #eadeed;
+}
+
+.booking__button:active {
+  border-radius: 10px;
+  background: #eadeed;
+}
+
+.booking__button:focus {
+  border-radius: 10px;
+  border: 3px solid #6c0287;
+  background: #fff;
 }

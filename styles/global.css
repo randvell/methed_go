@@ -9,6 +9,10 @@ html {
   box-sizing: inherit;
 }
 
+*:focus {
+  outline: 1px solid #cd06ff
+}
+
 body {
   position: relative;
   overflow-x: hidden;
