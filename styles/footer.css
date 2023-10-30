@@ -64,3 +64,11 @@
 .address__element--email::before {
   content: url('../assets/icons/contacts-mail.svg');
 }
+
+.footer__map {
+  transition: transform 200ms ease;
+}
+
+.footer__map:hover {
+  transform: scale(1.1);
+}

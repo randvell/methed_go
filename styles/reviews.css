@@ -25,6 +25,8 @@
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 10px;
+
+  transition: transform 200ms ease;
 }
 
 .reviews__img--first {
@@ -37,4 +39,8 @@
 
 .reviews__img--third {
   object-position: 0 -80px;
+}
+
+.reviews__img:hover {
+  transform: scale(1.1);
 }

@@ -71,4 +71,9 @@
 
 .about__figure {
   float: left;
+  transition: transform 200ms ease;
+}
+
+.about__figure:hover {
+  transform: scale(1.05);
 }
