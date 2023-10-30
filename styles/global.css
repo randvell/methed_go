@@ -7,10 +7,11 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  transition: outline 1s ease;
 }
 
 *:focus {
-  outline: 1px solid #cd06ff
+  outline: 1px solid #cd06ff;
 }
 
 body {

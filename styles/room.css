@@ -16,6 +16,12 @@
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
+  transition: transform, 400ms ease;
+}
+
+.room__item:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
 
 .room__link {

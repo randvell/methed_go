@@ -74,6 +74,8 @@
   font-weight: 700;
   line-height: 30px;
   text-transform: uppercase;
+
+  transition: background-color 0.5s ease;
 }
 
 .presentation__button--booking:hover,
@@ -100,6 +102,8 @@
   width: 97px;
   height: 97px;
   margin-bottom: 90px;
+
+  transition: background-image 700ms ease;
 }
 
 .presentation__button--down:hover {

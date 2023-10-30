@@ -28,11 +28,13 @@
 
 .header__call-button:hover,
 .header__call-button:focus {
-  border: 3px solid #6c0287;
+  outline: 3px solid #6c0287;
   background: #6c0287;
+  transition: background-color 0.25s 0.1s ease, outline 0.5s ease;
 }
 
 .header__call-button:active {
-  border: 1px solid #000;
+  outline: 1px solid #000;
   background: #640aa3;
+  transition: background-color 0.5s ease, outline 0.5s ease;
 }

@@ -6,6 +6,8 @@
   font-size: 24px;
   padding: 30px 70px;
   margin-bottom: 20px;
+
+  transition: 700ms ease;
 }
 
 .faq__element:last-child {
