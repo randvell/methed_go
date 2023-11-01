@@ -9,11 +9,15 @@
   margin-bottom: 60px;
 }
 
-.booking__fieldset--inner {
-  margin-bottom: 0;
+.booking__fieldset--flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 15px 50px;
 }
 
-.booking__fieldset:last-child() {
+.booking__fieldset:last-child(),
+.booking__fieldset--flex:last-child() {
   margin-bottom: 0;
 }
 
@@ -57,17 +61,16 @@
 
 .booking__fieldset--datetime {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 14px 50px;
+  gap: 12px 50px;
 }
 
 .booking__legend--services {
   margin-bottom: 24px;
   text-align: left;
 }
-
-
 
 .booking__label {
   display: flex;
@@ -134,14 +137,9 @@
   background: #fff;
 }
 
-.booking__input--bottom-arrow {
-  position: relative;
-}
-
 .booking__input--bottom-arrow::after {
-  content: url("../assets/icons/arrow_bot.svg");
   display: inline-block;
-  position: absolute;
+  content: "123";
   width: 21px;
   height: 15px;
 }
@@ -163,15 +161,18 @@
 }
 
 .booking__label--above {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+
   color: #fff;
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
-  margin-bottom: 3px;
 }
 
 .booking__button {
-  justify-self: flex-end;
   width: 300px;
   height: 60px;
   border-radius: 10px;
