@@ -207,33 +207,42 @@
           <fieldset class="booking__fieldset booking__fieldset--datetime">
             <legend class="booking__legend">Выбери дату и время</legend>
             <fieldset class="booking__fieldset booking__fieldset--flex">
-              <div class="booking__wrapper">
-                <input class="booking__input booking__input--short booking__input--bottom-arrow" type="text"
-                  id="booking_date" name="date" placeholder="Дата" required>
-                <input class="booking__input booking__input--short booking__input--bottom-arrow" type="text"
-                  id="booking_time" name="time" placeholder="Время" required>
+              <div class="booking__wrapper booking__wrapper--flex-column">
+                <div class="booking__wrapper--flex-row">
+                  <label class="booking__label booking__label--above" for="booking_name">Дата
+                    <input class="booking__input booking__input--short booking__input--bottom-arrow" type="text"
+                      id="booking_date" name="date" placeholder="Дата" required>
+                  </label>
+                  <label class="booking__label booking__label--above" for="booking_name">Время
+                    <input class="booking__input booking__input--short booking__input--bottom-arrow" type="text"
+                      id="booking_time" name="time" placeholder="Время" required>
+                  </label>
+                </div>
+
+                <label class="booking__label booking__label--above" for="booking_name">Сколько человек
+                <input class="booking__input booking__input--bottom-arrow" type="text" id="booking_qty"
+                  name="person_qty" placeholder="Сколько человек" required>
+                </label>
               </div>
 
-              <label class="booking__label booking__label--above" for="booking_name">Имя
-                <input class="booking__input" type="text" id="booking_name" name="name" required>
-              </label>
+              <div class="booking__wrapper--flex-column">
+                <label class="booking__label booking__label--above" for="booking_name">Имя
+                  <input class="booking__input" type="text" id="booking_name" name="name" required>
+                </label>
+                <label class="booking__label booking__label--above" for="booking_surname">Фамилия
+                  <input class="booking__input" type="text" id="booking_surname" name="surname" required>
+                </label>
+              </div>
 
-              <label class="booking__label booking__label--above" for="booking_phone">Телефон
-                <input class="booking__input" type="text" id="booking_phone" name="phone" required>
-              </label>
+              <div class="booking__wrapper--flex-column">
+                <label class="booking__label booking__label--above" for="booking_phone">Телефон
+                  <input class="booking__input" type="text" id="booking_phone" name="phone" required>
+                </label>
 
-              <input class="booking__input booking__input--bottom-arrow" type="text" id="booking_qty" name="person_qty"
-                placeholder="Сколько человек" required>
+                <label class="booking__label booking__label--above" for="booking_email">E-mail
+                  <input class="booking__input" type="text" id="booking_email" name="email" required>
+                </label>
 
-              <label class="booking__label booking__label--above" for="booking_surname">Фамилия
-                <input class="booking__input" type="text" id="booking_surname" name="surname" required>
-              </label>
-
-              <label class="booking__label booking__label--above" for="booking_email">E-mail
-                <input class="booking__input" type="text" id="booking_email" name="email" required>
-              </label>
-
-              <div class="button_wrapper">
                 <button class="booking__button" type="submit">Забронировать</button>
               </div>
             </fieldset>

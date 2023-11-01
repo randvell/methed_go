@@ -12,8 +12,22 @@
 .booking__fieldset--flex {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-end;
-  gap: 15px 50px;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.booking__wrapper--flex-row {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.booking__wrapper--flex-column {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 25px;
+
 }
 
 .booking__fieldset:last-child(),
