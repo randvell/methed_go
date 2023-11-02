@@ -9,6 +9,10 @@
   margin-bottom: 60px;
 }
 
+.booking__fieldset:last-child {
+  margin-bottom: 0;
+}
+
 .booking__fieldset--flex {
   display: flex;
   flex-wrap: wrap;
@@ -18,7 +22,7 @@
 
 .booking__wrapper {
   display: flex;
-  min-height: 74px;
+  min-height: 73px;
   align-items: end;
 }
 
