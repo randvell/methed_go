@@ -35,7 +35,6 @@
   flex-wrap: wrap;
   flex-direction: column;
   gap: 14px;
-
 }
 
 .booking__fieldset:last-child(),
@@ -103,8 +102,9 @@
   justify-content: center;
   flex: 250px 0 1;
   max-width: 250px;
+  max-height: 55px;
   padding: 7px 15px;
-  border: solid 3px #fff;
+  outline: none;
   border-radius: 8px;
   background: #FFF;
 
@@ -142,7 +142,7 @@
 
 .booking__input--room:hover+label {
   border-radius: 8px;
-  border: 3px solid #6c0287;
+  border: 3px solid #640aa3;
   background: #eadeed;
 }
 
@@ -196,9 +196,10 @@
 .booking__button {
   width: 300px;
   height: 60px;
+
+  outline: none;
   border-radius: 10px;
   background: #fff;
-
   color: #6c0287;
   font-size: 22px;
   font-style: normal;
@@ -206,7 +207,7 @@
   line-height: 28px;
   text-transform: uppercase;
 
-  transition: background-color 0.5s ease, border-width 1s ease;
+  transition: background-color 0.5s ease, border-color 300ms ease, border-width 50ms ease;
 }
 
 .booking__button:hover {
@@ -215,14 +216,15 @@
   background: #eadeed;
 }
 
-.booking__button:active {
-  border-radius: 10px;
-  background: #eadeed;
-}
-
 .booking__button:focus {
   border-radius: 10px;
   border: 3px solid #6c0287;
   background: #fff;
   outline: none;
+}
+
+.booking__button:active {
+  border-radius: 10px;
+  background: #eadeed;
+  border: none;
 }

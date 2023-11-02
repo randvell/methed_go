@@ -65,6 +65,8 @@
   width: 374px;
   height: 80px;
 
+  outline: none;
+  border: none;
   border-radius: 10px;
   background: #6c0287;
 
