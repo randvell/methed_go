@@ -16,14 +16,18 @@
   gap: 50px;
 }
 
-.booking__wrapper--flex-row {
+.booking__wrapper {
   display: flex;
+  min-height: 74px;
+  align-items: end;
+}
+
+.booking__wrapper--flex-row {
   flex-direction: row;
   gap: 32px;
 }
 
 .booking__wrapper--flex-column {
-  display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   gap: 25px;
@@ -96,7 +100,7 @@
   flex: 250px 0 1;
   max-width: 250px;
   padding: 7px 15px;
-  border: solid 3px #ccc;
+  border: solid 3px #fff;
   border-radius: 8px;
   background: #FFF;
 
@@ -167,7 +171,6 @@
 
 .booking__input--short[type="text"] {
   max-width: 134px;
-  margin-right: 26px;
 }
 
 .booking__input--short:last-child {
