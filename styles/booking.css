@@ -34,7 +34,7 @@
 .booking__wrapper--flex-column {
   flex-wrap: wrap;
   flex-direction: column;
-  gap: 25px;
+  gap: 14px;
 
 }
 
