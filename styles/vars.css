@@ -44,9 +44,11 @@
 
 .booking__label--room {
   --text-color: #000;
+  --active-text-color: #fff;
   --checked-border: #fff;
   --hover-border: #640aa3;
   --focus-border: #640aa3;
+  --focus-bg-color: #fff;
   --active-bg: #6c0287;
 }
 
