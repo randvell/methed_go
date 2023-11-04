@@ -11,7 +11,7 @@ html {
 }
 
 *:focus {
-  outline: 1px solid #cd06ff;
+  outline: 1px solid var(--focus-border-color);
 }
 
 body {
@@ -30,8 +30,8 @@ body {
   font-weight: 400;
   line-height: 28px;
 
-  color: #fff;
-  background-color: #1b1a1b;
+  color: var(--text-color);
+  background-color: var(--bg-color);
 }
 
 img,

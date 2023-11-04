@@ -1,0 +1,69 @@
+:root {
+  --text-color: #fff;
+  --bg-color: #1b1a1b;
+  --focus-border-color: #cd06ff;
+  --bg-darkened: #eadeed;
+  --box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.header {
+  --btn-border-color: #6c0287;
+  --btn-focus-bg: #6c0287;
+  --btn-active-bg: #640aa3;
+}
+
+.footer {
+  --bg: linear-gradient(180deg, #1b1a1b 0%, #370a37 100%); 
+}
+
+.header__call-button {
+  --btn-active-border-color: #000;
+}
+
+.presentation {
+  --big-text-color: #cd06ff;
+  --btn-bg: #6c0287;
+  --btn-focus-bg: #840aa3;
+  --btn-active-bg: #640aa3;
+}
+
+.social {
+  --active-color: #cd06ff;
+}
+
+.booking {
+  --bg-color: #440f51;
+  --input-bg-color: #fff;
+}
+
+.booking__button {
+  --bg-color: #fff;
+  --text-color: #6c0287;
+  --btn-focus-bg: #6c0287;
+}
+
+.booking__label--room {
+  --text-color: #000;
+  --checked-border: #fff;
+  --hover-border: #640aa3;
+  --focus-border: #640aa3;
+  --active-bg: #6c0287;
+}
+
+.booking__input::placeholder {
+  --text-color: #211e1e;
+}
+
+.slogan {
+  --quotation-color: #6c0287;
+}
+
+.faq__element {
+  --bg-color: #fff;
+  --text-color: #1c1a1a;
+}
+
+.faq__element:nth-child(even) {
+  --bg-color: #440f51;
+  --text-color: #fff;
+}

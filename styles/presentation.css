@@ -46,14 +46,14 @@
 }
 
 .presentation__number {
-  color: #cd06ff;
+  color: var(--big-text-color);
   font-size: 100px;
   font-weight: 900;
   line-height: normal;
 }
 
 .presentation__label {
-  color: #cd06ff;
+  color: var(--big-text-color);
   font-size: 75px;
   font-weight: 900;
   font-variant: all-small-caps;
@@ -68,27 +68,27 @@
   outline: none;
   border: none;
   border-radius: 10px;
-  background: #6c0287;
+  background: var(--btn-bg);
 
-  color: #fff;
+  color: var(--text-color);
   font-style: normal;
   font-size: 26px;
   font-weight: 700;
   line-height: 30px;
   text-transform: uppercase;
 
-  transition: background-color 0.5s ease;
+  transition: background-color 0.25s ease;
 }
 
 .presentation__button--booking:hover,
 .presentation__button--booking:focus {
   border-radius: 10px;
-  background: #840aa3;
+  background: var(--btn-focus-bg)
 }
 
 .presentation__button--booking:active {
   border-radius: 10px;
-  background: #640aa3;
+  background: var(--btn-active-bg);
 }
 
 .presentation__button--down {

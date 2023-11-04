@@ -1,5 +1,5 @@
 .footer {
-  background: linear-gradient(180deg, #1b1a1b 0%, #370a37 100%);
+  background: var(--bg);
 }
 
 .social__item {
@@ -13,11 +13,11 @@
 
 .social__item:hover,
 .social__item:focus {
-  color: #eadeed
+  color: var(--bg-darkened);
 }
 
 .social__item:active {
-  color: #cd06ff
+  color: var(--active-color);
 }
 
 .address {

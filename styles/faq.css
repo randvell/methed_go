@@ -1,7 +1,7 @@
 .faq__element {
   position: relative;
-  background-color: #fff;
-  color: #1c1a1a;
+  background-color: var(--bg-color);
+  color: var(--text-color);
   font-weight: 700;
   font-size: 24px;
   padding: 30px 70px;
@@ -12,11 +12,6 @@
 
 .faq__element:last-child {
   margin-bottom: 0;
-}
-
-.faq__element:nth-child(even) {
-  background-color: #440f51;
-  color: #fff;
 }
 
 .faq__element::after {

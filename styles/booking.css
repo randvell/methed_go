@@ -1,5 +1,5 @@
 .booking {
-  background: #440f51;
+  background: var(--bg-color);
   padding: 80px 30px;
   margin-top: 50px;
 }
@@ -106,9 +106,9 @@
   padding: 7px 15px;
   outline: none;
   border-radius: 8px;
-  background: #FFF;
+  background: var(--input-bg-color);
 
-  color: #000;
+  color: var(--text-color);
   text-align: center;
   font-size: 30px;
   font-weight: 700;
@@ -122,11 +122,11 @@
 
 .booking__input:focus,
 .booking__input:focus-visible {
-  border: 1px solid #CD06FF;
+  border: 2px solid var(--focus-border-color);
 }
 
 .booking__input::placeholder {
-  color: #211e1e;
+  color: var(--text-color);
   font-size: 18px;
   font-style: normal;
   line-height: 28px;
@@ -142,21 +142,21 @@
 
 .booking__input--room:hover+label {
   border-radius: 8px;
-  border: 3px solid #640aa3;
-  background: #eadeed;
+  border: 3px solid var(--hover-border);
+  background: var(--bg-darkened);
 }
 
 .booking__input--room:checked+label {
-  color: #fff;
+  color: var(--active-text-color);
   border-radius: 8px;
-  border: 3px solid #fff;
-  background: #6c0287;
+  border: 3px solid var(--checked-border);
+  background: var(--active-bg);
 }
 
 .booking__label--room:focus {
   border-radius: 8px;
-  border: 3px solid #640aa3;
-  background: #fff;
+  border: 3px solid var(--focus-border);
+  background: var(--focus-bg-color);
 }
 
 .booking__input--bottom-arrow::after {
@@ -187,7 +187,7 @@
   align-items: flex-start;
   gap: 5px;
 
-  color: #fff;
+  color: var(--text-color);
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
@@ -199,8 +199,8 @@
 
   outline: none;
   border-radius: 10px;
-  background: #fff;
-  color: #6c0287;
+  background: var(--bg-color);
+  color: var(--text-color);
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
@@ -212,19 +212,19 @@
 
 .booking__button:hover {
   border-radius: 10px;
-  border: 3px solid #6c0287;
-  background: #eadeed;
+  border: 3px solid var(--btn-focus-bg);
+  background: var(--bg-darkened);
 }
 
 .booking__button:focus {
   border-radius: 10px;
-  border: 3px solid #6c0287;
-  background: #fff;
+  border: 3px solid var(--btn-focus-bg);
+  background: var(--bg-color);
   outline: none;
 }
 
 .booking__button:active {
   border-radius: 10px;
-  background: #eadeed;
+  background: var(--bg-darkened);
   border: none;
 }
