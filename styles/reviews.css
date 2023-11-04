@@ -19,7 +19,8 @@
   vertical-align: top;
 }
 
-.reviews__img {
+.reviews__img,
+.reviews__gradient::after {
   width: 280px;
   height: 280px;
   border-radius: 50%;
@@ -27,6 +28,21 @@
   margin-bottom: 10px;
 
   transition: transform 200ms ease;
+}
+
+.reviews__gradient {
+  position: relative;
+}
+
+.reviews__gradient::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  background: var(--bg);
+
+  z-index: 1;
 }
 
 .reviews__img--first {

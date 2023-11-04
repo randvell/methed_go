@@ -16,6 +16,10 @@
   --bg: linear-gradient(180deg, #1b1a1b 0%, #370a37 100%); 
 }
 
+.reviews__gradient {
+  --bg: radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0.00) 0%, rgba(108, 2, 135, 0.50) 100%)
+}
+
 .header__call-button {
   --btn-active-border-color: #000;
 }
