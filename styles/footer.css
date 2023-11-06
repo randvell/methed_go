@@ -1,5 +1,5 @@
 .footer {
-  background: var(--bg);
+  background: var( --footer-bg);
 }
 
 .social__item {
@@ -13,11 +13,11 @@
 
 .social__item:hover,
 .social__item:focus {
-  color: var(--bg-darkened);
+  color: var(--white-darkened);
 }
 
 .social__item:active {
-  color: var(--active-color);
+  color: var(--light-purple);
 }
 
 .address {

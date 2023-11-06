@@ -40,7 +40,7 @@
   display: block;
   top: 0;
   left: 0;
-  background: var(--bg);
+  background: var(--review-gradient);
 
   z-index: 1;
 }

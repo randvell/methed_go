@@ -1,24 +1,19 @@
-.service__container {
+.service__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 20px;
+  padding-bottom: 70px;
 }
 
-.service__list {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 380px;
-  gap: 40px 20px;
-}
-
-.service__list:nth-child(2) {
-  padding-top: 70px;
+.service__item:nth-child(3n + 2) {
+  transform: translate(0, 70px);
 }
 
 .service__item {
   display: flex;
-  flex-basis: 228px;
-  flex-shrink: 0;
+  min-height: 228px;
+  flex-basis: 380px;
   align-items: flex-end;
 
   background-repeat: no-repeat;
@@ -30,6 +25,10 @@
 .service__item:hover {
   transform: scale(1.1);
   box-shadow: var(--box-shadow)
+}
+
+.service__item:nth-child(3n + 2):hover {
+  transform: scale(1.1) translate(0, 70px);
 }
 
 .service__name {

@@ -46,14 +46,14 @@
 }
 
 .presentation__number {
-  color: var(--big-text-color);
+  color: var(--light-purple);
   font-size: 100px;
   font-weight: 900;
   line-height: normal;
 }
 
 .presentation__label {
-  color: var(--big-text-color);
+  color: var(--light-purple);
   font-size: 75px;
   font-weight: 900;
   font-variant: all-small-caps;
@@ -68,9 +68,9 @@
   outline: none;
   border: none;
   border-radius: 10px;
-  background: var(--btn-bg);
+  background: var(--light-purple);
 
-  color: var(--text-color);
+  color: var(--white);
   font-style: normal;
   font-size: 26px;
   font-weight: 700;
@@ -83,12 +83,12 @@
 .presentation__button--booking:hover,
 .presentation__button--booking:focus {
   border-radius: 10px;
-  background: var(--btn-focus-bg)
+  background: var(--purple)
 }
 
 .presentation__button--booking:active {
   border-radius: 10px;
-  background: var(--btn-active-bg);
+  background: var(--violet);
 }
 
 .presentation__button--down {

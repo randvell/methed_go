@@ -16,13 +16,13 @@
   top: -10px;
   left: 0;
   content: "“ ";
-  color: var(--quotation-color);
+  color: var(--dark-purple);
   font-weight: 900;
 }
 
 .slogan__paragraph:last-child:after {
   content: " ”";
-  color: var(--quotation-color);
+  color: var(--dark-purple);
   font-weight: 900;
   font-size: 44px;
 }

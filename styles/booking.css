@@ -1,5 +1,5 @@
 .booking {
-  background: var(--bg-color);
+  background: var(--bold-purple);
   padding: 80px 30px;
   margin-top: 50px;
 }
@@ -106,9 +106,9 @@
   padding: 7px 15px;
   outline: none;
   border-radius: 8px;
-  background: var(--input-bg-color);
+  background: var(--white);
 
-  color: var(--text-color);
+  color: var(--black);
   text-align: center;
   font-size: 30px;
   font-weight: 700;
@@ -122,11 +122,11 @@
 
 .booking__input:focus,
 .booking__input:focus-visible {
-  border: 2px solid var(--focus-border-color);
+  border: 2px solid var(--light-purple);
 }
 
 .booking__input::placeholder {
-  color: var(--text-color);
+  color: var(--light-black);
   font-size: 18px;
   font-style: normal;
   line-height: 28px;
@@ -142,21 +142,21 @@
 
 .booking__input--room:hover+label {
   border-radius: 8px;
-  border: 3px solid var(--hover-border);
-  background: var(--bg-darkened);
+  border: 3px solid var(--violet);
+  background: var(--white-darkened);
 }
 
 .booking__input--room:checked+label {
-  color: var(--active-text-color);
+  color: var(--white);
   border-radius: 8px;
-  border: 3px solid var(--checked-border);
-  background: var(--active-bg);
+  border: 3px solid var(--white);
+  background: var(--dark-purple);
 }
 
 .booking__label--room:focus {
   border-radius: 8px;
-  border: 3px solid var(--focus-border);
-  background: var(--focus-bg-color);
+  border: 3px solid var(--violet);
+  background: var(--white);
 }
 
 .booking__input--bottom-arrow::after {
@@ -187,7 +187,7 @@
   align-items: flex-start;
   gap: 5px;
 
-  color: var(--text-color);
+  color: var(--white);
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
@@ -199,8 +199,8 @@
 
   outline: none;
   border-radius: 10px;
-  background: var(--bg-color);
-  color: var(--text-color);
+  background: var(--white);
+  color: var(--dark-purple);
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
@@ -212,19 +212,19 @@
 
 .booking__button:hover {
   border-radius: 10px;
-  border: 3px solid var(--btn-focus-bg);
-  background: var(--bg-darkened);
+  border: 3px solid var(--dark-purple);
+  background: var(--white-darkened);
 }
 
 .booking__button:focus {
   border-radius: 10px;
-  border: 3px solid var(--btn-focus-bg);
-  background: var(--bg-color);
+  border: 3px solid var(--dark-purple);
+  background: var(--white);
   outline: none;
 }
 
 .booking__button:active {
   border-radius: 10px;
-  background: var(--bg-darkened);
+  background: var(--white-darkened);
   border: none;
 }

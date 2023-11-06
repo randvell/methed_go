@@ -1,13 +1,18 @@
 .faq__element {
   position: relative;
-  background-color: var(--bg-color);
-  color: var(--text-color);
+  background-color: var(--white);
+  color: var(--dark-grey);
   font-weight: 700;
   font-size: 24px;
   padding: 30px 70px;
   margin-bottom: 20px;
 
   transition: 700ms ease;
+}
+
+.faq__element:nth-child(even) {
+  background-color: var(--bold-purple);
+  color: var(--white);
 }
 
 .faq__element:last-child {
